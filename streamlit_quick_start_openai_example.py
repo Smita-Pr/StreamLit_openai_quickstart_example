@@ -9,7 +9,7 @@ from langchain.llms import OpenAI
 
 st.title('🦜🔗 Quickstart App')
 
-st.sidebar.title("Ask me ay question")
+st.sidebar.title("Ask me any question")
 st.sidebar.divider()
 st.sidebar.markdown("Developed by Smita Prasad", unsafe_allow_html=True)
 st.sidebar.markdown("Current Version: 0.0.1")
