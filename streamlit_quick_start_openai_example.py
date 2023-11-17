@@ -9,6 +9,13 @@ from langchain.llms import OpenAI
 
 st.title('🦜🔗 Quickstart App')
 
+st.sidebar.title("Ask me ay question")
+st.sidebar.divider()
+st.sidebar.markdown("Developed by Smita Prasad", unsafe_allow_html=True)
+st.sidebar.markdown("Current Version: 0.0.1")
+st.sidebar.markdown("OpenAI and LangChain, built on stramlit")
+st.sidebar.divider()
+
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 
 def generate_response(input_text):
